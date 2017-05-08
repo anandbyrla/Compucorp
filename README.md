@@ -9,10 +9,17 @@ I have used 12 grids layout to be responsive on any devices and develop custom t
 > - Add content for member and blogs
 
 For Demo: http://52.221.147.18/
+Dependecies:
+https://www.drupal.org/project/slick_views
+
 
 # Greek Label Theme
 
 I have implemented Bootstrap subtheme by following the design that provided 
+
+Dependencies:
+https://www.drupal.org/project/colorized_gmap
+https://www.drupal.org/project/bootstrap
 
 > Installation Steps
 > - Download the zip file or clone the source files

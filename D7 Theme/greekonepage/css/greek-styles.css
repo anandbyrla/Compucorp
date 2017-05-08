@@ -1,0 +1,368 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: font126755 !important;
+    font-size: 14px;
+    background: #f1f2f2;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: font112043 !important;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.btn-default {
+    background-color: #d83454;
+    border-color: #ccc;
+    color: #fff;
+    width: 100%;
+}
+
+.intro-section {
+    width: 100%;
+    height: 100%;
+    padding-top: 250px;
+    text-align: center;
+    background: #d83454;
+}
+
+.intro-section .description{
+    padding: 3em 0;
+}
+
+.intro-section .lead{
+    color: #fff;
+}
+
+.design-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #f1f2f2;
+}
+
+.design-section h3,
+.build-section  h3,
+.both-section h3
+{
+    color: #414042;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.pink-color {
+    color: #d83454;
+}
+
+.img-center{
+    margin: 0px auto;
+}
+
+.block-center{
+    margin: 0px auto !important;
+    float: none;
+}
+
+.build-section {
+    height: 100%;
+    padding-top: 120px;
+    text-align: center;
+    background: #f1f2f2;
+}
+
+.maincontent{
+    width: 100%;
+    float: left;
+    padding-bottom: 2em;
+}
+
+.services-section {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+    background: #fff;
+    float: left;
+    display: table;
+}
+
+.services-section h1,
+.client-section h1,
+.map-section h1,
+.contact-section h1
+{
+        color: #414042;
+}
+
+.services-section h1,
+.client-section h1
+{
+    padding-bottom: 2em;
+}
+
+.client-section h1{
+    padding-bottom: 3em;
+}
+.services-section p{
+    padding-top: 3em;
+    font-size: 16px;
+}
+
+.services-block{
+    margin-bottom: 3em;
+}
+
+.arrow-down
+{
+    padding-top: 6em;
+}
+
+.services-section .arrow-down{
+    padding-top: 9em;
+}
+
+.client-section .arrow-down{
+    padding-top: 20em;
+}
+
+.map-section .arrow-down{
+    padding-top: 4em;
+}
+
+
+
+.both-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #f1f2f2;
+}
+
+.client-section {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #f1f2f2;
+    float: left;
+    padding-bottom: 3em;
+    display: table;
+}
+
+.map-section {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #f1f2f2;
+    float: left;
+}
+
+.map-section #block-colorized-gmap-1 .colorized-gmap-common{
+    width: 100%;
+    height: 350px;
+    -webkit-box-shadow:inset 0 0 15px 2px #C4C4C4;
+    box-shadow:inset 0 0 15px 2px #C4C4C4;
+}
+
+.contact-section {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    background: #f1f2f2;
+    margin-bottom: 150px;
+    float: left;
+}
+
+.contact-section h2.block-title,
+.map-section h2.block-title
+{
+    font-size: 4em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.contact-section h2.block-title{
+    padding-bottom: 1em;
+}
+
+.map-section{
+    padding-top: 10px;
+}
+
+.map-section h2.block-title{
+    padding-bottom: 1em;
+}
+/*@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    .intro-section{
+        padding-top: 250px;
+    }
+    .design-section{
+        padding-top: 150px;
+    }
+    .build-section{
+        padding-top: 120px;
+    }
+    .both-section{
+        padding-top: 150px;
+    }
+
+    .services-section h1, .client-section h1{
+        padding-bottom: 2em;
+    }
+    .services-section p{
+        padding-top: 3em;
+    }
+    .services-section .arrow-down{
+        padding-top: 9em;
+    }
+    .services-section h1, .client-section h1{
+        padding-bottom: 1em;
+    }
+
+    .map-section h2.block-title{
+        font-size: 3em;
+        padding-bottom: 0.5em;
+    }
+}
+*/
+/* xs < 768 */
+@media 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) 
+  {
+    body {
+        font-size: 1em;
+    }
+    p{
+        color: #3d3c3e;
+        font-size: 1em;;
+    }
+    h1{
+            font-size: 3em;
+            color: #414042;
+    }
+    h3{
+            font-size: 2em;
+            color: #414042;
+    }
+
+    .intro-section{
+        padding-top: 100px;
+    }
+    .design-section{
+        padding-top: 100px;
+    }
+    .build-section{
+        padding-top: 80px;
+    }
+    .both-section{
+        padding-top: 130px;
+    }
+    .services-section h1{
+        padding-bottom: 1em;
+    }
+    .services-section p{
+        padding-top: 1em;
+    }
+    .services-section .arrow-down{
+        padding-top: 3em;
+    }
+    .map-section h2.block-title{
+        padding-bottom: 0.5em;
+        font-size: 3em;
+        margin: 0em;
+    }
+    .map-section .arrow-down{
+        padding-top: 2em;
+    }
+    .contact-section{
+        padding-top: 0px;
+        margin-bottom:50px;
+
+    }
+    .contact-section h2.block-title{
+        font-size: 3em;
+    }
+
+
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+    p{
+        color: #3d3c3e;
+        font-size: 1em;;
+    }
+    h1{
+            font-size: 2em;
+            color: #414042;
+    }
+    h3{
+            font-size: 2em;
+            color: #414042;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+    p{
+        color: #3d3c3e;
+        font-size: 1.2em;;
+    }
+    h1
+    {
+            font-size: 3em;
+            color: #414042;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+    p{
+        color: #3d3c3e;
+        font-size: 1.3em;;
+    }
+    h1
+    {
+            font-size: 4em;
+            color: #414042;
+    }
+}
+

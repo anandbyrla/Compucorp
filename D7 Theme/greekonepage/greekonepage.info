@@ -1,0 +1,82 @@
+name = Greek Label
+description = Greek Label One page theme.
+core = 7.x
+base theme = bootstrap
+
+settings[bootstrap_navbar_position] = 'fixed-top'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[intro]         = 'Page Intro'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[services]        = 'Services Content'
+regions[client]        = 'Client Area'
+regions[map]        = 'Map'
+regions[contact]        = 'Contact'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/greek-styles.css
+stylesheets[all][] = css/carousel.css
+stylesheets[all][] = css/devices-style.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+scripts[] = js/jquery.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/jquery.easing.min.js
+scripts[] = js/scrolling-nav.js
+scripts[] = js/js-functions.js
+
+
+; For information on choosing the desired method, please read the Drupal
+; Bootstrap sub-theme "how-to" documentation:
+; https://drupal.org/node/1978010
+
+; ;----------------------------------
+; ; METHOD 1: Bootstrap Source Files
+; ;----------------------------------
+; 
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+; 
+; scripts[] = 'bootstrap/js/affix.js'
+; scripts[] = 'bootstrap/js/alert.js'
+; scripts[] = 'bootstrap/js/button.js'
+; scripts[] = 'bootstrap/js/carousel.js'
+; scripts[] = 'bootstrap/js/collapse.js'
+; scripts[] = 'bootstrap/js/dropdown.js'
+; scripts[] = 'bootstrap/js/modal.js'
+; scripts[] = 'bootstrap/js/tooltip.js'
+; scripts[] = 'bootstrap/js/popover.js'
+; scripts[] = 'bootstrap/js/scrollspy.js'
+; scripts[] = 'bootstrap/js/tab.js'
+; scripts[] = 'bootstrap/js/transition.js'
+;
+; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+; settings[bootstrap_cdn] = ''
+
+
+; ;-------------------------
+; ; METHOD 2: Bootstrap CDN
+; ;-------------------------
+;
+; Method 2 uses BootstrapCDN, the only thing you might need to provide here
+; is overrides to Bootstrap theme settings. Copy them here from the base theme
+; to override.
+
+; Information added by Drupal.org packaging script on 2015-03-10
+version = "7.x-1.0"
+core = "7.x"
+project = "greekonepage"
+datestamp = "1426026782"
+

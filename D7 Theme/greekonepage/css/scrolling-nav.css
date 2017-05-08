@@ -1,0 +1,220 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: font126755 !important;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: font112043 !important;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 1em;
+    }
+    p{
+        color: #3d3c3e;
+        font-size: 1em;;
+    }
+    h1{
+            font-size: 2em;
+            color: #414042;
+    }
+    h3{
+            font-size: 2em;
+            color: #414042;
+    }
+
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+    p{
+        color: #3d3c3e;
+        font-size: 1em;;
+    }
+    h1{
+            font-size: 2em;
+            color: #414042;
+    }
+    h3{
+            font-size: 2em;
+            color: #414042;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+    p{
+        color: #3d3c3e;
+        font-size: 1.2em;;
+    }
+    h1
+    {
+            font-size: 3em;
+            color: #414042;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+    p{
+        color: #3d3c3e;
+        font-size: 1.3em;;
+    }
+    h1
+    {
+            font-size: 4em;
+            color: #414042;
+    }
+}
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 300px;
+    text-align: center;
+    background: #d83454;
+}
+
+.intro-section .description{
+    padding: 3em 0;
+}
+
+.design-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #f1f2f2;
+}
+
+.design-section h3,
+.build-section  h3,
+.both-section h3
+{
+    color: #414042;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+.pink-color {
+    color: #d83454;
+}
+
+.img-center{
+    margin: 0px auto;
+}
+
+.build-section {
+    height: 100%;
+    padding-top: 120px;
+    text-align: center;
+    background: #f1f2f2;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #fff;
+}
+
+.services-section h1,
+.client-section h1,
+.map-section h1,
+.contact-section h1
+{
+        color: #414042;
+}
+
+.services-section h1,
+.client-section h1
+{
+    padding-bottom: 2em;
+}
+
+.client-section h1{
+    padding-bottom: 4em;
+}
+.services-section p{
+    padding-top: 3em;
+    font-size: 16px;
+}
+
+.services-section .arrow-down
+{
+    padding-top: 6em;
+}
+
+.client-section .arrow-down{
+    padding-top: 10em;
+}
+
+
+.both-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #f1f2f2;
+}
+
+.client-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #f1f2f2;
+}
+
+.map-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #f1f2f2;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #f1f2f2;
+}
+

@@ -1,4 +1,4 @@
-# OpenCharity
+# Open Charity Theme
 I have used 12 grids layout to be responsive on any devices and develop custom theme
 
 
@@ -9,7 +9,7 @@ I have used 12 grids layout to be responsive on any devices and develop custom t
 
 For Demo: http://52.221.147.18/
 
-# Greek Label
+# Greek Label Theme
 
 I have implemented Bootstrap subtheme by following the design that provided 
 

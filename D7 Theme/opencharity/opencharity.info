@@ -1,0 +1,33 @@
+
+name = Open Charity  Theme
+description = Custome responsive theme for Open charity
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/styles.css
+
+
+regions[header] = Header
+regions[slider] = Slider
+regions[help] = Help
+regions[featured] = Featured
+regions[highlighted] = Highlighted
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[after_content] = After Content
+
+regions[before_footer] = Before Footer
+
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2017-04-25
+version = "7.54"
+project = "drupal"
+datestamp = "1485986921"
+
